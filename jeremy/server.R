@@ -1,5 +1,9 @@
 shinyServer(function(input, output, session) {
   
+  USA = gdp$USA
+  UK = gdp$UK
+  Sweden = gdp$SWEDEN
+  
   output$mychart <- renderLineChart({
     # Return a data frame. Each column will be a series in the line chart.
 #    data.frame(
@@ -8,9 +12,9 @@ shinyServer(function(input, output, session) {
 #      "Sine 2" = sin(1:100/10) * 0.25 + 0.5
 #    )
     data.frame(
-      USA = gdp$USA,
-      UK = gdp$UK,
-      Sweden = gdp$SWEDEN
+      USA,
+      UK,
+      Sweden
       )
   })
 })

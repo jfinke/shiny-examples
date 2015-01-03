@@ -35,11 +35,11 @@ binding.renderValue = function(el, data) {
       .showXAxis(true);
       
     chart.xAxis     //Chart x-axis settings
-      .axisLabel('Time (ms)')
+      .axisLabel('Year')
       .tickFormat(d3.format(',r'));
  
     chart.yAxis     //Chart y-axis settings
-      .axisLabel('Voltage (v)')
+      .axisLabel('GDP')
       .tickFormat(d3.format('.02f'));
 
     nv.utils.windowResize(chart.update);
