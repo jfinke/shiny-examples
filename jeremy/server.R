@@ -8,9 +8,9 @@ shinyServer(function(input, output, session) {
 #      "Sine 2" = sin(1:100/10) * 0.25 + 0.5
 #    )
     data.frame(
-      Sine = gdp$USA,
-      Cosine = gdp$UK,
-      "Sine 2" = gdp$SWEDEN
+      USA = gdp$USA,
+      UK = gdp$UK,
+      Sweden = gdp$SWEDEN
       )
   })
 })
