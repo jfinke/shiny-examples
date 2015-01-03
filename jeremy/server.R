@@ -10,7 +10,7 @@ shinyServer(function(input, output, session) {
     data.frame(
       Sine = gdp$USA,
       Cosine = gdp$UK,
-      "Sine 2" = gdp$AUSTRIA
+      "Sine 2" = gdp$SWEDEN
       )
   })
 })
