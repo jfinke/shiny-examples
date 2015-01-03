@@ -1,6 +1,6 @@
 shinyUI(fluidPage(
-  tags$h2("GDP Example"),
-  tags$h4("GDP Data from:"),
+  tags$h2("Per Capita GDP Example"),
+  tags$h4("Per Capita GDP Data from:"),
   tags$h4("https://stat.duke.edu/~mw/data-sets/ts_data/gdp"),
   fluidRow(
     column(width=6,
