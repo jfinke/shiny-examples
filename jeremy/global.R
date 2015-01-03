@@ -2,4 +2,6 @@
 # ui.R or server.R
 
 source("linechart.R")
+
+# Reading in the GDP Information
 gdp <- read.table("data/gdp.txt", header=TRUE, quote="\"", stringsAsFactors=FALSE)
