@@ -1,5 +1,7 @@
 shinyUI(fluidPage(
-  tags$h2("Testing Example"),
+  tags$h2("GDP Example"),
+  tags$h4("GDP Data from:"),
+  tags$h4("https://stat.duke.edu/~mw/data-sets/ts_data/gdp"),
   fluidRow(
     column(width=6,
       p("This Shiny app is an adaptation of the",
@@ -9,8 +11,7 @@ shinyUI(fluidPage(
         "JavaScript charting library."
       ),
       p("Source code:",
-        a(href="https://github.com/jcheng5/shiny-js-examples/tree/master/output", "@jcheng5/shiny-js-examples/output")),
-      p("This is another paragraph")
+        a(href="https://github.com/jcheng5/shiny-js-examples/tree/master/output", "@jcheng5/shiny-js-examples/output"))
     )
   ),
   fluidRow(
