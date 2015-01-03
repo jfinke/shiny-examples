@@ -36,6 +36,9 @@ binding.renderValue = function(el, data) {
       
     chart.xAxis     //Chart x-axis settings
       .axisLabel('Year')
+      //.tickFormat(function(d) { 
+          //return d3.time.format('%x')(new Date(d));
+      //.scale.range([1950, 1983])
       .tickFormat(d3.format(',r'));
  
     chart.yAxis     //Chart y-axis settings
